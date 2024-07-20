@@ -3,6 +3,7 @@
 
 **Summary:** We have developed a novel dual-modal integration approach that combines morphological attributes from histopathological images with genomic data, offering a comprehensive view of tumor characteristics and addressing the limitations inherent in single-modal analyses. In the histopathological modality, we utilize the Swin-Transformer structure to capture both local and global image features, enhanced by contrastive learning to refine the model's ability to identify similarities and differences among tumor presentations. For the genomic modality, we employ a graph convolutional network that capitalizes on the similarities in gene function and expression levels, ensuring a robust genomic analysis. Additionally, we integrate a cross-attention module that facilitates superior interaction and information integration between the two modalities, significantly boosting diagnostic performance. To further enhance the model's adaptability and reliability across various datasets and scenarios, we incorporate divergence-based regularization, thus improving its generalization capabilities.
 
+![Overall pipline](/imgs/til_pipline.png "SG-Fusion pipline")
 
 ### Pre-requisites:
 
