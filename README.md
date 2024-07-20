@@ -12,20 +12,21 @@
 
 ### Downloading TCGA Data
 
-To download diagnostic WSIs (formatted as .svs files), molecular feature data and other clinical metadata, please refer to the [NIH Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov/) and the [cBioPortal](https://www.cbioportal.org/). WSIs for each cancer type can be downloaded using the [GDC Data Transfer Tool](https://docs.gdc.cancer.gov/Data_Transfer_Tool/Users_Guide/Data_Download_and_Upload/).
+To download diagnostic WSIs (formatted as .svs files), molecular feature data and other clinical metadata, please refer to the [NIH Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov/) and the [cBioPortal](https://www.cbioportal.org/).
 
 ### Selected Gene expression data
 
 The selected key gene expression data can be downloaded via:
+[Selected Key Genes](https://www.cbioportal.org/)
 
 ### Graph adjacy matrix
 
 The constitution matrix based on gene-gene functional interaction and value similarity can be downloaded via:
+[Adjacency Matrix](https://www.cbioportal.org/)
 
 ## Running Experiments
 
-To run experiments using the SNN, AMIL, and MMF networks defined in this repository, experiments can be run using the following generic command-line:
-
+Experiments can be run using the following generic command-line; some hyperparameters and paths need to be set according to your specific circumstances.
 ```shell
 CUDA_VISIBLE_DEVICES=<DEVICE ID> python train.py 
 ```
