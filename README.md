@@ -18,12 +18,13 @@ To download diagnostic WSIs (formatted as .svs files), molecular feature data an
 ### Selected Gene expression data
 
 The selected key gene expression data can be downloaded via:
-[Selected Key Genes](https://www.cbioportal.org/)
+
+[Selected Key Genes](https://drive.google.com/file/d/1U42o9FJFjp3jLPKN3Js_0eoRlXm0RMfM/view?usp=sharing)
 
 ### Graph adjacy matrix
 
 The constitution matrix based on gene-gene functional interaction and value similarity can be downloaded via:
-[Adjacency Matrix](https://www.cbioportal.org/)
+[Adjacency Matrix](https://drive.google.com/file/d/1JRbn3A9awxrGtMHLmnh1NOj9OWPeQFbn/view?usp=sharing)
 
 ### Running Experiments
 
