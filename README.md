@@ -35,3 +35,6 @@ CUDA_VISIBLE_DEVICES=<DEVICE ID> python train.py
 ### Interpretability Analysis
 
 For the pathology image analysis, we utilized GradCAM to visualize the feature maps extracted by the Swin-Transformer, highlighting critical areas in a Stage 4 glioma sample. For the genomic analysis, Integrated Gradients helped visualize the most influential genes, with HEY1 emerging as particularly significant due to its role in enhancing glioma cell survival through the Notch signaling pathway, emphasizing its potential as a therapeutic target.
+![Model interpolation](/imgs/interpolation.png "interpolation")
+
+
