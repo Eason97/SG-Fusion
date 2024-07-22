@@ -15,7 +15,7 @@
 
 To download diagnostic WSIs (formatted as .svs files), molecular feature data and other clinical metadata, please refer to the [NIH Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov/) and the [cBioPortal](https://www.cbioportal.org/).
 
-### Selected Gene expression data
+### Selected Gene names
 
 The selected key gene expression data can be downloaded via:
 
@@ -26,9 +26,23 @@ The selected key gene expression data can be downloaded via:
 The constitution matrix based on gene-gene functional interaction and value similarity can be downloaded via:
 [Adjacency Matrix](https://drive.google.com/file/d/1JRbn3A9awxrGtMHLmnh1NOj9OWPeQFbn/view?usp=sharing)
 
+### Gene expression data and label file
+
+The selected key gene expression data can be downloaded via:
+
+[labels](https://drive.google.com/file/d/1yzg8aIGJicrgH8qowzqnzVXmAf66ljbA/view?usp=sharing)
+
+### Pathology Image data
+
+The pathology Image data can be downloaded via:
+
+[cropped image patches](https://github.com/mahmoodlab/PathomicFusion/tree/master/data/TCGA_GBMLGG)
+
+
 ### Running Experiments
 
-Experiments can be run using the following generic command-line; some hyperparameters and paths need to be set according to your specific circumstances.
+Experiments can be run using the following generic command-line; the hyperparameters and paths (including image modality dir, gene expression data dir, and adjacency matrix file dir) need to be set according to your specific circumstances.
+
 ```shell
 CUDA_VISIBLE_DEVICES=<DEVICE ID> python train.py 
 ```
