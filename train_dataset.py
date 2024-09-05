@@ -43,11 +43,11 @@ class multimodal_train_dataset(Dataset):
     def __init__(self,label_dict,mrna_dict,survtime_dict,censor_dict):
         self.transform = transforms.Compose([transforms.ToTensor()])
         self.list_train=[]
-        for line in open('/home/eason/Pictures/all_datasets/train.txt'):
+        for line in open('change to your file root'):
             line = line.strip('\n')
             if line!='':
                 self.list_train.append(line)
-        self.root_img='/home/eason/Pictures/all_datasets/all_st/'
+        self.root_img='change to your file folder'
         self.dict_label=label_dict
         self.dict_mrna=mrna_dict
         self.dict_survtime=survtime_dict
