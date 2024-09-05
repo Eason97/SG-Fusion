@@ -26,17 +26,6 @@ The selected key gene expression data can be downloaded via:
 The constitution matrix based on gene-gene functional interaction and value similarity can be downloaded via:
 [Adjacency Matrix](https://drive.google.com/file/d/1JRbn3A9awxrGtMHLmnh1NOj9OWPeQFbn/view?usp=sharing)
 
-### Gene expression data and label file
-
-The selected key gene expression data can be downloaded via:
-
-[labels](https://drive.google.com/file/d/1yzg8aIGJicrgH8qowzqnzVXmAf66ljbA/view?usp=sharing)
-
-### Pathology Image data
-
-The pathology Image data can be downloaded via:
-
-[cropped image patches](https://github.com/mahmoodlab/PathomicFusion/tree/master/data/TCGA_GBMLGG)
 
 
 ### Running Experiments
