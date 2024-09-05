@@ -47,9 +47,9 @@ def create_dict_from_csv(csv_file):
             survtime_dict[key] = survtime
             censor_dict[key] = censor
     return label_dict,mrna_dict,survtime_dict,censor_dict
-csv_file = "/home/eason/Pictures/all_datasets/3_ours_mrna/gbmlgg_selected.csv"
+csv_file = "change to your csv file with grade stage, expression data, survival time, censor information"
 label_dict,mrna_dict,survtime_dict,censor_dict= create_dict_from_csv(csv_file)
-file_path = '/home/eason/Pictures/all_datasets/3_ours_mrna/Adj.csv'
+file_path = 'Adj.csv'
 df = pd.read_csv(file_path, header=None)
 adj_matrix = df.to_numpy()
 row_indices, col_indices = np.nonzero(adj_matrix)
