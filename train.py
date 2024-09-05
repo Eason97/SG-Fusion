@@ -100,9 +100,14 @@ for epoch in range(train_epoch):
             img_anchor_filtered = img_anchor[mask]
             img_positive_filtered = img_positive[mask]
             img_negative_filtered = img_negative[mask]
+            '''
             similarity_positive = F.cosine_similarity(img_anchor, img_positive)
             similarity_negative = F.cosine_similarity(img_anchor, img_negative)
             contrastive_loss = torch.relu(similarity_positive - similarity_negative + margin).mean()
+            '''
+            similarity_positive = F.cosine_similarity(img_anchor, img_positive)**2
+            similarity_negative = torch.relu(F.cosine_similarity(img_anchor, img_negative) - margin)**2
+            contrastive_loss = (similarity_positive + similarity_negative).mean()
 
         loss_grade = F.cross_entropy(category_prediction, labels_gt)
         loss_hazard = CoxLoss(survtime, censor, hazard_prediction, device)
