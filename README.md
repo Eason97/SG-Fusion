@@ -10,6 +10,8 @@
 - Linux (Tested on Ubuntu 18.04)
 - NVIDIA GPU (Tested on Nvidia GeForce RTX 3090 ) with CUDA 11.8
 - Python (3.9.13), torch_geometric(2.1*) matplotlib (3.1.1), numpy (1.18.1), opencv-python (4.1.1), openslide-python (1.1.1), openslide (3.4.1), pandas (1.1.3), pillow (7.0.0), torch (2.1.0), torchvision (0.16.0), scikit-learn (0.22.1), tensorboardx (1.9)
+- [Pretrained Swin Transformer v2 weights](https://drive.google.com/file/d/1thbfaUGJoDaNkaek6QgTYs5BlmTnZ958/view?usp=drive_link)
+
 
 ### Downloading TCGA Data
 
