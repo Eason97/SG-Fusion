@@ -5,6 +5,9 @@
 
 ![Overall pipline](/imgs/til_pipline.png "SG-Fusion pipline")
 
+#### Contact and Collaboration: fuminghan1@gmail.com / fig072@usask.ca
+
+
 ### Pre-requisites:
 
 - Linux (Tested on Ubuntu 18.04)
